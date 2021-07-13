@@ -1,5 +1,6 @@
 import * as React from "react"
 import Navbar from '../components/Navbar';
+import TeamImg from "../images/cfpr-hacknight.png";
 
 // markup
 const IndexPage = () => {
@@ -46,7 +47,8 @@ const IndexPage = () => {
 
 					{/* <!--Right Col--> */}
 					<div className="w-full xl:w-3/5 py-6 overflow-y-hidden">
-						<img className="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="static/img/cfpr-hacknight.png"></img>
+						{/* <img className="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="static/img/cfpr-hacknight.png"></img> */}
+						<img className="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src={TeamImg}></img>
 					</div>
 
 					{/* <!--Footer--> */}
