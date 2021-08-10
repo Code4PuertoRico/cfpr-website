@@ -1,5 +1,6 @@
 import * as React from "react"
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import TeamImg from "../images/cfpr-hacknight.png";
 
 // markup
@@ -52,9 +53,7 @@ const IndexPage = () => {
 					</div>
 
 					{/* <!--Footer--> */}
-					<div className="w-full pt-16 pb-6 text-sm text-center md:text-left fade-in">
-						<a className="text-gray-500 no-underline hover:no-underline" href="#">&copy; Copyright 2021 - Todos los derechos reservados.</a>
-					</div>
+					<Footer />
 
 				</div>
 
