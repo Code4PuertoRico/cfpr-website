@@ -17,7 +17,9 @@ const Projects = () => {
                 </div>
                 <div>
                     <h2 className="my-4 text-blue-400 text-xl font-bold slide-in-bottom-h2">1 Hora</h2>
-                    <p className="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">Mas detalles pronto...</p>
+                    <p className="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">
+                        Una plataforma para facilitar la mentoría. Para mas información <a className="underline" href="https://1hora.org/">presione aquí</a>.
+                    </p>
                 </div>
                 </div>
                 <Footer/>
