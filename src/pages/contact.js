@@ -7,7 +7,7 @@ const Contact = () => {
         <div>
             <Navbar />
             <div className="container pt-12 md:pt-24 px-6 mx-auto flex flex-wrap flex-col md:flex-row">
-                <h1 className="my-4 text-3xl md:text-5xl text-blue-400 font-bold leading-tight text-center md:text-left slide-in-bottom-h1">Contact</h1>
+                <h1 className="my-4 text-3xl md:text-5xl text-blue-400 font-bold leading-tight text-center md:text-left slide-in-bottom-h1">Contacto</h1>
                 <div>
                     <h2 className="my-2 text-1xl md:text-3xl text-blue-300 font-bold leading-tight text-center md:text-left slide-in-bottom-h2">Slack</h2>
                     <p>Crea una cuenta y accede a los diferentes canales de nuestros proyectos. La plataforma Slack es el principal espacio para que los equipos y proyectos coordinen sus esfuerzos. La mayor parte de la comunicación pasara aquí fuera de nuestros hack nights.</p>
