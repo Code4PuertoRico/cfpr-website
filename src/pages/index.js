@@ -23,7 +23,7 @@ const IndexPage = () => {
 					{/* <!--Right Col--> */}
 					<div className="col-md-6">
 						{/* <img className="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="static/img/cfpr-hacknight.png"></img> */}
-						<img className="img-fluid" src={TeamImg}></img>
+						<img className="img-fluid" alt="Code for Puerto Rico" src={TeamImg}></img>
 					</div>
 				</div>
 
