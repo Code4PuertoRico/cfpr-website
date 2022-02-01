@@ -1,15 +1,15 @@
 import * as React from "react"
-// import Navbar from '../components/Navbar';
-// import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import TeamImg from "../images/cfpr-hacknight.png";
 
 // markup
 const IndexPage = () => {
 	return (
 		<main>
-			{/* <Navbar /> */}
+			<Navbar />
 			{/* <!--Main--> */}
-			<div className="container">
+			<div className="container mt-5">
 				<div className="row">
 					{/* <!--Left Col--> */}
 					<div className="col-md-6">
@@ -26,10 +26,10 @@ const IndexPage = () => {
 						<img className="img-fluid" src={TeamImg}></img>
 					</div>
 				</div>
-				{/* <!--Footer--> */}
-				{/* <Footer /> */}
 
 			</div>
+			{/* <!--Footer--> */}
+			<Footer />
 		</main>
 	)
 }
